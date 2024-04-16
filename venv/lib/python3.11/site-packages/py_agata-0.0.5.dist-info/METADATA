@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: py-agata
+Version: 0.0.5
+Summary: AGATA (Automated Glucose dATa Analysis): a toolbox to analyse glucose data.
+Author-email: Giacomo Cappon <cappongiacomo@gmail.com>
+Project-URL: Homepage, https://github.com/gcappon/py_agata
+Project-URL: Bug Tracker, https://github.com/gcappon/py_agata/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: COPYING.md
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Requires-Dist: openpyxl
+Requires-Dist: statsmodels
+
+# PYAGATA
+
+<img src="https://i.postimg.cc/G3YXvWWh/agata-logo.png" width="250" height="250">
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/gcappon/py_agata/COPYING)
+[![GitHub commit](https://img.shields.io/github/last-commit/gcappon/py_agata)](https://github.com/gcappon/py_agata/commits/master)
+[![CircleCI](https://circleci.com/gh/gcappon/py_agata.svg?style=shield)](https://circleci.com/gh/gcappon/py_agata)
+[![codecov](https://codecov.io/gh/gcappon/py_agata/graph/badge.svg?token=RR39WKLDIK)](https://codecov.io/gh/gcappon/py_agata)
+
+Official Python porting of AGATA (Automated Glucose dATa Analysis): a toolbox to analyse glucose data. 
+
+## Installation
+
+To install it, just run `pip` in your terminal:  
+```
+pip install py_agata
+```
+
+## Citing
+
+If you are using AGATA in your research, please cite it:  
+```
+Cappon G, Sparacino G, Facchinetti A. AGATA: A toolbox for automated glucose data analysis.  
+J Diabetes Sci Technol. 2023. DOI: 10.1177/19322968221147570
+```
+
+Link to the paper --> [here](https://doi.org/10.1177/19322968221147570)
